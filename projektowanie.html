@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Projektowanie tabel w języku UML</title>
+  <style>
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    th, td {
+      text-align: left;
+      padding: 8px;
+    }
+
+    th {
+      background-color: #f2f2f2;
+      font-weight: bold;
+    }
+
+    td {
+      border-bottom: 1px solid #ddd;
+    }
+
+    .card {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+    }
+
+    a {
+    text-decoration: none;
+    color: #007bff;
+  }
+
+    nav {
+    background-color: #f8f8f8;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #333;
+  }
+  </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Strona główna</a></li>
+            <li><a href="uml.html">Czym jest UML</a></li>
+            <li><a href="wyglad.html">Jak to wygląda</a></li>
+            <li><a href="przyklad.html">Przykład programu</a></li>
+            <li><a href="diagram.html">Diagram UML</a></li>
+            <li><a href="jak_dziala.html">Jak działa</a></li>
+            <li><a href="zastosowanie.html">Zastosowanie</a></li>
+            <li><a href="test.html">Test wiedzy</a></li>
+            <li><a href="slowniczek.html">Słowniczek pojęć</a></li>
+        </ul>
+  <div class="card">
+    <h1>Projektowanie tabel w języku UML</h1>
+    <p>W języku UML tabelę projektujemy jako klasę, a poszczególne kolumny reprezentujemy jako atrybuty klasy.</p>
+    <p>Przykład:</p>
+    <table>
+      <tr>
+        <th>Nazwa atrybutu</th>
+        <th>Typ danych</th>
+        <th>Opis</th>
+      </tr>
+      <tr>
+        <td>id</td>
+        <td>int</td>
+        <td>unikalny identyfikator obiektu</td>
+      </tr>
+      <tr>
+        <td>name</td>
+        <td>string</td>
+        <td>nazwa obiektu</td>
+      </tr>
+      <tr>
+        <td>price</td>
+        <td>float</td>
+        <td>cena obiektu</td>
+      </tr>
+    </table>
+    <p>Klasa może mieć również metody, które reprezentujemy jako funkcje.</p>
+  </div>
+  <footer>
+    &copy; 2023 Klasa UML. Wszelkie prawa zastrzeżone.
+  </footer>
+</body>
+</html>

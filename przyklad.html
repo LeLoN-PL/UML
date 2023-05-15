@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Przykład programu reprezentującego klasy UML</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+    }
+
+    .card {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    .code {
+      font-family: monospace;
+      background-color: #f5f5f5;
+      padding: 10px;
+      overflow: auto;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+    }
+
+    a {
+    text-decoration: none;
+    color: #007bff;
+  }
+
+    nav {
+    background-color: #f8f8f8;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #333;
+  }
+
+  </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Strona główna</a></li>
+            <li><a href="uml.html">Czym jest UML</a></li>
+            <li><a href="wyglad.html">Jak to wygląda</a></li>
+            <li><a href="projektowanie.html">Projektowanie tabel</a></li>
+            <li><a href="diagram.html">Diagram UML</a></li>
+            <li><a href="jak_dziala.html">Jak działa</a></li>
+            <li><a href="zastosowanie.html">Zastosowanie</a></li>
+            <li><a href="test.html">Test wiedzy</a></li>
+            <li><a href="slowniczek.html">Słowniczek pojęć</a></li>
+        </ul>
+  <div class="card">
+    <h1>Przykład programu reprezentującego klasy UML</h1>
+    <p>Poniżej znajduje się przykład programu w języku Java, który reprezentuje dwie klasy UML: Person (Osoba) i Car (Samochód).</p>
+    <div class="code">
+      <pre>
+        <code>
+public class Person {
+    private String name;
+    private int age;
+    
+    public Person(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+    
+    public String getName() {
+        return name;
+    }
+    
+    public int getAge() {
+        return age;
+    }
+    
+    public void setName(String name) {
+        this.name = name;
+    }
+    
+    public void setAge(int age) {
+        this.age = age;
+    }
+}
+
+public class Car {
+    private String brand;
+    private String model;
+    
+    public Car(String brand, String model) {
+        this.brand = brand;
+        this.model = model;
+    }
+    
+    public String getBrand() {
+        return brand;
+    }
+    
+    public String getModel() {
+        return model;
+    }
+    
+    public void setBrand(String brand) {
+        this.brand = brand;
+    }
+    
+    public void setModel(String model) {
+        this.model = model;
+    }
+}
+        </code>
+      </pre>
+    </div>
+    <p>W powyższym przykładzie tworzymy dwie klasy: Person (Osoba) i Car (Samochód). Każda klasa posiada prywatne pola (name, age, brand, model), metody dostępowe (getters) i metody ustawiające (setters).</p>
+  </div>
+  <footer>
+    &copy; 2023 Klasa UML. Wszelkie prawa zastrzeżone.
+  </footer>
+</body>
+</html>
