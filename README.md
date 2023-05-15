@@ -1,4 +1,1 @@
-# UML
-<!-- Leonhard Kasper -->
-<!-- Maks Kowalski -->
-<!-- Szymon Sojka -->
+<h1> Leonhard Kasper, Maks Kowalski, Szymon Sojka</h1>
